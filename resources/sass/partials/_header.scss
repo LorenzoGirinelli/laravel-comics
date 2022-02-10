@@ -1,0 +1,40 @@
+header {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    // Top 
+    .top {
+        background-color: $primary_color;
+        color: $secondary_color;
+        text-align: right;      
+        height: 30px;
+        line-height: 30px;
+    }
+
+    nav {
+        padding: 20px 0;
+
+
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                // Logo 
+                .logo {
+                    width: 80px;
+                }
+
+                // Links 
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        margin-left: 40px ;
+                    }
+                }
+            }
+    }
+}
