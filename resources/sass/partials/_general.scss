@@ -15,3 +15,29 @@ ul {
     width: 65%;
     margin: auto;
 }
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    border: 3px solid $primary_color;
+    font-weight: bold;
+    color: white;
+
+    // Color 
+    &-blue {
+        background-color: $primary_color;
+    }
+
+    &-transparent {
+        background-color: none;
+    }
+
+    // Dimensions 
+    &-wide {
+        padding: 5px 30px;
+        font-size: 15px;
+    }
+
+    &-regular {
+        padding: 10px 15px;
+    }
+} 

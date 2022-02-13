@@ -1,0 +1,16 @@
+.single-comic {
+    margin: 0 20px 20px;
+    width: calc( (100% / 6) - 40px);
+    // Thumb 
+    .thumbnail {
+        margin-bottom: 20px;      
+        height: 175px;
+        overflow-y: hidden;   
+    }
+    // Comic Name 
+    .comic-name {
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+    }
+} 
