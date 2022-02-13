@@ -5,13 +5,8 @@ menu
 @endsection
 
 @section('main_content')
-    <section class="banner">
-        <div class="container">
-            <div class="banner-container">
-                <a href="#" class="btn btn-regular btn-blue">current series</a>
-            </div>
-        </div>
-    </section>
+
+    @include('components.banner')
 
     {{-- Comics List  --}}
     <div class="comic-list">

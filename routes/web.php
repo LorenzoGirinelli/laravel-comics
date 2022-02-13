@@ -22,3 +22,25 @@ Route::get('/', function () {
 
     return view('home', $data);
 })->name('home');
+
+Route::get('/product-details/{id}', function ($id) {
+
+    $comics_array = config('comics');
+    $comic_to_show = false;
+
+    foreach ($comics_array as $comic) {
+        if($comic['id'] == $id) {
+            $comic_to_show = $comic;
+        }
+    }
+
+    if(!$comic_to_show) {
+        abort('404');
+    }
+
+    $data = [
+        'comic_info' => $comic_to_show
+    ];
+
+    return view('product-details', $data);
+})->name('product'); 
