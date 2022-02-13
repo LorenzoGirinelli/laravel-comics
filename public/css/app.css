@@ -125,3 +125,29 @@ main .comic-list .container .comic-list-container a {
   color: white;
   font-size: 15px;
 }
+
+.pre-footer {
+  background-color: #0282f9;
+}
+footer{
+  background-color: #303030;
+  color: white;
+  font-size: 12px;
+  line-height: 17px;
+}
+.footer-container{
+  display: flex;
+}
+footer img {
+  width: 280px;
+}
+footer h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+}
+.logo-container{
+  margin-left: 500px;
+}
